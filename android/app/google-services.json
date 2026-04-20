@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848173635948",
+    "project_id": "nirbhaya-b4c51",
+    "storage_bucket": "nirbhaya-b4c51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848173635948:android:0c567515cd8ecef2eafb49",
+        "android_client_info": {
+          "package_name": "com.nirbhava"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn1KVlh9y8vpkemabwqcvXY6u4Nw3m8pQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
