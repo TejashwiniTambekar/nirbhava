@@ -116,14 +116,14 @@ export const route = [
     },
   },
     {
-    name: 'AudioRecorder',
+    name: 'Audio',
     component: AudioRecorder,
     option: {
       headerShown: false,
     },
   },
     {
-    name: 'Audio',
+    name: 'Audior',
     component:Audio,
     option: {
       headerShown: false,

@@ -2,14 +2,31 @@ import { View, Text, SafeAreaView, StyleSheet, ImageBackground, Image } from 're
 import React, { useEffect } from 'react'
 import logo from "../Assets/Logo/Logo.png"
 import { colorList } from '../Utils/ColorList';
+import {onAuthStateChanged} from 'firebase/auth';
+import {auth} from '../Firebase';
 export default function Splash(props) {
 
+
+
     useEffect(() => {
-        const timer = setTimeout(() => {
-            // Replace 'Home' with the screen you want to navigate to
-            props.navigation.replace('Login');
+    const unsubscribe = onAuthStateChanged(auth, user => {
+
+        setTimeout(() => {
+ console.log("AUTO LOGIN USER", user);
+            if (user) {
+                console.log("AUTO LOGIN USER", user.uid);
+
+                props.navigation.replace('Danger');
+            } else {
+                props.navigation.replace('Login');
+            }
+
         }, 2000);
-    }, [])
+
+    });
+
+    return unsubscribe;
+}, []);
 
     return (
         <View style={styles.bgwrapper}>
