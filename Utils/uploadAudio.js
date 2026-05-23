@@ -19,7 +19,7 @@ export const uploadAudio =
 
       const response =
         await fetch(
-          'https://api.cloudinary.com/v1_1/dxqwgr7fs/video/upload',
+          'https://api.cloudinary.com/v1_1/dlctpxe7p/video/upload',
           {
             method: 'POST',
             body: data,
