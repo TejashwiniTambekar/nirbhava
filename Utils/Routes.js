@@ -16,10 +16,7 @@ import AudioRecorder from "../Screens/AudioRecorder"
 import EditProfile from "../Screens/EditProfile"
 import Audio from "../Screens/Audio"
 //import MapScreen from "../Screens/MapScreen"
-<<<<<<< HEAD
 import Email from "../Screens/Email"
-=======
->>>>>>> e9de281a3596f44030530c940c916f4996ad6178
 export const route = [
   {
     name: 'Splash',
@@ -50,7 +47,6 @@ export const route = [
     },
   },
   {
-<<<<<<< HEAD
     name: 'Email',
     component: Email,
     option: {
@@ -59,8 +55,6 @@ export const route = [
   },
    
   {
-=======
->>>>>>> e9de281a3596f44030530c940c916f4996ad6178
     name: 'QuestionPage',
     component: QuestionPage,
     option: {
@@ -131,22 +125,14 @@ export const route = [
     },
   },
     {
-<<<<<<< HEAD
     name: 'Audio',
-=======
-    name: 'AudioRecorder',
->>>>>>> e9de281a3596f44030530c940c916f4996ad6178
     component: AudioRecorder,
     option: {
       headerShown: false,
     },
   },
     {
-<<<<<<< HEAD
     name: 'Audior',
-=======
-    name: 'Audio',
->>>>>>> e9de281a3596f44030530c940c916f4996ad6178
     component:Audio,
     option: {
       headerShown: false,
@@ -159,9 +145,6 @@ export const route = [
     },
   },
   
-<<<<<<< HEAD
   
 
-=======
->>>>>>> e9de281a3596f44030530c940c916f4996ad6178
 ]

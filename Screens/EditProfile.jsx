@@ -122,27 +122,6 @@ export default function EditProfile({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-<<<<<<< HEAD
-  container: { flex: 1, backgroundColor: '#171528', padding: 20 },
-  title: { color: '#fff', fontSize: 22, marginBottom: 20 },
-
-  input: {
-    borderWidth: 1,
-    borderColor: '#333',
-    marginBottom: 12,
-    padding: 12,
-    borderRadius: 10,
-    color: '#fff',
-  },
-
-  btn: {
-    backgroundColor: '#ff4d6d',
-    padding: 15,
-    borderRadius: 12,
-    alignItems: 'center',
-  },
-});
-=======
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -174,4 +153,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
->>>>>>> e9de281a3596f44030530c940c916f4996ad6178

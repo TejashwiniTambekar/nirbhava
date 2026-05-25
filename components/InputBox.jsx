@@ -28,15 +28,6 @@ export default function InputBox({ style, onChangeText, text="", label, isError,
                     style={styles.icon}
                 >
                     {
-<<<<<<< HEAD
-                        type === 'email' && <EmailIcon name={''} size={20} color="white" />
-                    }
-                    {
-                        type === 'password' && <PasswordIcon name={''} size={20} color="white" />
-                    }
-                    {
-                        type === 'phone' && <Icon name={''} size={20} color="white" />
-=======
                         type === 'email' && <EmailIcon name={'email'} size={20} color="white" />
                     }
                     {
@@ -44,7 +35,6 @@ export default function InputBox({ style, onChangeText, text="", label, isError,
                     }
                     {
                         type === 'phone' && <Icon name={'phone'} size={20} color="white" />
->>>>>>> e9de281a3596f44030530c940c916f4996ad6178
                     }
                     {
                         type === 'userName' || type ==="name" && <Icon name={'user'} size={20} color="white" />
