@@ -2,6 +2,7 @@ import { View, Text, SafeAreaView, StyleSheet, ImageBackground, Image } from 're
 import React, { useEffect } from 'react'
 import logo from "../Assets/Logo/Logo.png"
 import { colorList } from '../Utils/ColorList';
+<<<<<<< HEAD
 import {onAuthStateChanged} from 'firebase/auth';
 import {auth} from '../Firebase';
 export default function Splash(props) {
@@ -27,6 +28,16 @@ export default function Splash(props) {
 
     return unsubscribe;
 }, []);
+=======
+export default function Splash(props) {
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            // Replace 'Home' with the screen you want to navigate to
+            props.navigation.replace('Login');
+        }, 2000);
+    }, [])
+>>>>>>> e9de281a3596f44030530c940c916f4996ad6178
 
     return (
         <View style={styles.bgwrapper}>
