@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google() // ✅ required for com.google.gms.google-services
+        gradlePluginPortal() // ✅ required for resolving plugins declared via `plugins {}` block
+        mavenCentral()
+        includeBuild("../node_modules/@react-native/gradle-plugin")
+    }
+}
+
+plugins {
+    id("com.facebook.react.settings")
+}
+
+extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
+    ex.autolinkLibrariesFromCommand()
+}
+
+rootProject.name = 'Nirbhava'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
