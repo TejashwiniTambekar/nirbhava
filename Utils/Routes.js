@@ -1,139 +1,189 @@
-import AllSetScreen from "../Screens/AllSetScreen"
-import EmergencyContactDetails from "../Screens/EmergencyContactDetails"
-import Login from "../Screens/Login"
-import QuestionPage from "../Screens/QuestionsPage"
-import SignUp from "../Screens/SignUp"
-import Splash from "../Screens/Splash"
-import Danger from "../Screens/Danger"
-import BarSetting from "../Screens/BarSetting"
-import Account from "../Screens/Account"
-import Playlist from "../Screens/Playlist"
-import PrivacyPolicy from "../Screens/PrivacyPolicy"
-import Help from "../Screens/Help"
-import ForgotPassword from "../Screens/ForgotPassword"
-import VerifyOtp from "../Screens/VerifyOtp"
-import AudioRecorder from "../Screens/AudioRecorder"
-import EditProfile from "../Screens/EditProfile"
-import Audio from "../Screens/Audio"
-//import MapScreen from "../Screens/MapScreen"
+import AllSetScreen from "../Screens/AllSetScreen";
+import EmergencyContactDetails from "../Screens/EmergencyContactDetails";
+import Login from "../Screens/Login";
+import QuestionPage from "../Screens/QuestionsPage";
+import SignUp from "../Screens/SignUp";
+import Splash from "../Screens/Splash";
+import Danger from "../Screens/Danger";
+import BarSetting from "../Screens/BarSetting";
+import Account from "../Screens/Account";
+import Playlist from "../Screens/Playlist";
+import PrivacyPolicy from "../Screens/PrivacyPolicy";
+import Help from "../Screens/Help";
+import ForgotPassword from "../Screens/ForgotPassword";
+import VerifyOtp from "../Screens/VerifyOtp";
+import AudioRecorder from "../Screens/AudioRecorder";
+import EditProfile from "../Screens/EditProfile";
+import Audio from "../Screens/Audio";
+import Email from "../Screens/Email";
+import Dailer from "../Screens/Dailer";
+import Details from "../Screens/Details";
+import Safe from "../Screens/Safe";
 export const route = [
+
   {
-    name: 'Splash',
+    name: "Splash",
     component: Splash,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'Login',
+    name: "Login",
     component: Login,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'SignUp',
+    name: "SignUp",
     component: SignUp,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'EmergencyContactDetails',
+    name: "EmergencyContactDetails",
     component: EmergencyContactDetails,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'QuestionPage',
+    name: "Email",
+    component: Email,
+    option: {
+      headerShown: false,
+    },
+  },
+  {
+    name: "Dailer",
+    component: Dailer,
+    option: {
+      headerShown: false,
+    },
+  },
+   {
+    name: "Details",
+    component: Details,
+    option: {
+      headerShown: false,
+    },
+  },
+  {
+    name: "Safe",
+    component: Safe,
+    option: {
+      headerShown: false,
+    },
+  },
+
+  {
+    name: "QuestionPage",
     component: QuestionPage,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'AllSetScreen',
+    name: "AllSetScreen",
     component: AllSetScreen,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'Danger',
+    name: "Danger",
     component: Danger,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'BarSetting',
+    name: "BarSetting",
     component: BarSetting,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'Account',
+    name: "Account",
     component: Account,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'Playlist',
+    name: "Playlist",
     component: Playlist,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'PrivacyPolicy',
+    name: "PrivacyPolicy",
     component: PrivacyPolicy,
     option: {
       headerShown: false,
     },
   },
+
   {
-    name: 'Help',
+    name: "Help",
     component: Help,
     option: {
       headerShown: false,
     },
   },
-   {
-    name: 'ForgotPassword',
+
+  {
+    name: "ForgotPassword",
     component: ForgotPassword,
     option: {
       headerShown: false,
     },
   },
-   {
-    name: 'VerifyOtp',
+
+  {
+    name: "VerifyOtp",
     component: VerifyOtp,
     option: {
       headerShown: false,
     },
   },
-    {
-    name: 'Audio',
+
+  {
+    name: "Audio",
     component: AudioRecorder,
     option: {
       headerShown: false,
     },
   },
-    {
-    name: 'Audior',
-    component:Audio,
-    option: {
-      headerShown: false,
-    },
-  },{
-   name: 'EditProfile',
-    component:EditProfile,
+
+  {
+    name: "Audior",
+    component: Audio,
     option: {
       headerShown: false,
     },
   },
-  
-]
+
+  {
+    name: "EditProfile",
+    component: EditProfile,
+    option: {
+      headerShown: false,
+    },
+  },
+
+];

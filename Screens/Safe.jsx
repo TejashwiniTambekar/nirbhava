@@ -29,7 +29,7 @@ export default function PrivacyPolicy(props) {
 
             {/* BACK BUTTON */}
             <TouchableOpacity
-  onPress={() => props.navigation.navigate('BarSetting')}
+  onPress={() => props.navigation.navigate('Danger')}
   style={styles.backBtn}
 >
   <MaterialIcons name="arrow-back" size={26} color="#fff" />

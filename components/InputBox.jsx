@@ -36,9 +36,11 @@ export default function InputBox({ style, onChangeText, text="", label, isError,
                     {
                         type === 'phone' && <Icon name={'phone'} size={20} color="white" />
                     }
-                    {
-                        type === 'userName' || type ==="name" && <Icon name={'user'} size={20} color="white" />
-                    }
+                {
+  (type === 'userName' || type === 'name') && (
+    <Icon name="user" size={20} color="white" />
+  )
+}
                 </TouchableOpacity>
 
             </View>
